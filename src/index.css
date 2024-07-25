@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outerbox{
+  border: 4px;
+  border-radius: 10px;
+}
+.innerclass{
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  padding: 10px;
+background-color: rgb(255,255,255,0);
+padding: 0px;
+}
+.copy{
+  border-color: black;
+}
+.copy:hover{
+opacity: .7;
+}
+.copy:active{
+  color: white;
+}
+#slider:active{
+  opacity: 1;
+}
+#slider{
+  width: 100%;
+}
+#input{
+  width:100%;
+  padding: 10px;
+}
+.addons{
+  padding: 0px;
+  width: 100%;
+  margin: 0px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  justify-content: center;
+ padding-top: 10px;
+}
+.check{
+  height: 30px;
+  width: 25px;
+}
+h1{
+  font-size: 50px;
+}
